@@ -15,7 +15,3 @@ function orientTest(ori){
 }
 
 jetpack.tabs.focused.contentWindow.addEventListener("MozOrientation", orientTest, true);
-console.log(jetpack.tabs.focused.contentWindow.wrappedJSObject);
-console.log(jetpack.tabs.focused.contentWindow);
-console.log(jetpack.tabs.focused.raw.ownerDocument.defaultView.gBrowser.mTabContainer);
-
