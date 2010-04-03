@@ -8,11 +8,11 @@ function rotateFx(ori) {
 	if (ori.x == 1) {
 	    xCounter = xCounter + 1;
 	    if (xCounter == 3) {
-		//╡Се╬╔у╔И╔╟╓Р╓©╓ф╓К
+		//Е⌡·Х╩╒Ц┐∙Ц┐╘Ц┌╟Ц┌▓Ц│÷Ц│╕Ц┌▀
 		rotateFlg = true;
-		//╔╚╔╕╔С╔©║╪╓Р╔Й╔╩╔ц╔х
+		//Ц┌╚Ц┌╕Ц┐ЁЦ┌©Ц┐╪Ц┌▓Ц┐╙Ц┌╩Ц┐┐Ц┐┬
 		xCounter = 0;
-		//x╪╢╓к╥╧╓╠╓К
+		//xХ╩╦Ц│╚Е┌╬Ц│▒Ц┌▀
 		rotateX();
 	    }
 	}
@@ -21,11 +21,11 @@ function rotateFx(ori) {
 	if (ori.z == 1) {
 	    zCounter = zCounter + 1;
 	    if (zCounter == 3) {
-		//╡Се╬╔у╔И╔╟╓Р╓©╓ф╓К
+		//Е⌡·Х╩╒Ц┐∙Ц┐╘Ц┌╟Ц┌▓Ц│÷Ц│╕Ц┌▀
 		rotateFlg = false;
-		//╔╚╔╕╔С╔©║╪╓Р╔Й╔╩╔ц╔х
+		//Ц┌╚Ц┌╕Ц┐ЁЦ┌©Ц┐╪Ц┌▓Ц┐╙Ц┌╩Ц┐┐Ц┐┬
 		zCounter = 0;
-		//z╪╢╓клА╓╧
+		//zХ╩╦Ц│╚Ф┬╩Ц│≥
 		rotateZ();
 	    }
 	}
